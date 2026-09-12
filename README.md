@@ -23,7 +23,7 @@ Blogging/
 Create `Backend/.env` with your MongoDB connection string:
 
 ```env
-CONNECTION_STRING=mongodb://127.0.0.1:27017/blogging
+CONNECTION_STRING=mongodb://YourString
 ```
 
 For MongoDB Atlas, replace the value with your Atlas connection string.
