@@ -26,7 +26,7 @@ const Create = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/postBlog",
+        "http://localhost:3000/postBlog" || "https://blog-website-0c9o.onrender.com/postBlog",
         details
       );
 

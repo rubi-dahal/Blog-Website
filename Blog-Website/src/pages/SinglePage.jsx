@@ -49,7 +49,7 @@ const SinglePage = () => {
   const deleteBlog = async () => {
     try {
       await axios.delete(
-        `http://localhost:3000/delete-blogs/${id}`
+        `http://localhost:3000/delete-blogs/${id}` || `https://blog-website-0c9o.onrender.com/delete-blogs/${id}`
       );
 
       toast.success("Blog Deleted!");

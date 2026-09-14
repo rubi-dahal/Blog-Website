@@ -19,7 +19,7 @@ const Register = () => {
 
     try {
       await axios.post(
-        "http://localhost:3000/register",
+        "http://localhost:3000/register" || "https://blog-website-0c9o.onrender.com/register",
         details
       );
 
