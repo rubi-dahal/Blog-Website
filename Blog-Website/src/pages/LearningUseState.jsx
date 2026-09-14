@@ -27,7 +27,7 @@ const LearningUseState = () => {
       </button>
       <h1 className="text-4xl md:text-6xl font-bold mb-8">React Counter</h1>
 
-      <div className="dark:bg-gray-700 text-white rounded-full w-40 h-40 flex items-center justify-center text-6xl font-semibold shadow-xl mb-10">
+      <div className="dark:bg-gray-700 text-black rounded-full w-40 h-40 flex items-center justify-center text-6xl font-semibold shadow-xl mb-10">
         {count}
       </div>
 
