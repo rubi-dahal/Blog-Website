@@ -31,7 +31,7 @@ const ForgotPassword = () => {
 
     try {
       const res = await axios.put(
-        "http://localhost:3000/update-user" || "https://blog-website-0c9o.onrender.com/update-user",
+        "https://blog-website-0c9o.onrender.com/update-user" || "http://localhost:3000/update-user",
         {
           email: email,
           password: password,

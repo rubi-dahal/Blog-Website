@@ -10,7 +10,7 @@ const Home = () => {
   async function fetchBlogs() {
     try {
       const response = await axios.get(
-        "http://localhost:3000/fetch-blogs" || "https://blog-website-0c9o.onrender.com/fetch-blogs"
+         "https://blog-website-0c9o.onrender.com/fetch-blogs" ||"http://localhost:3000/fetch-blogs"
       );
 
       setData(response.data.data);
