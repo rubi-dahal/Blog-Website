@@ -19,7 +19,7 @@ const SinglePage = () => {
   const fetchBlogById = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:3000/fetch-blogs/${id}`
+        `https://blog-website-0c9o.onrender.com/fetch-blogs/${id}`
       );
 
       const blogData = response.data.data;

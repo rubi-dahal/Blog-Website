@@ -62,7 +62,7 @@ const Edit = () => {
 
     try {
       const response = await axios.put(
-        `http://localhost:3000/edit-blog/${id}`,
+        `https://blog-website-0c9o.onrender.com/edit-blog/${id}`,
         details
       );
 
